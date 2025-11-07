@@ -52,6 +52,7 @@ class FortigateDisableLocalUserAction(Action):
             except requests.exceptions.Timeout:
                 self.log(message="Time out session on a firewall", level="error")
                 self.log_exception(message="Failed to get data from feed")
+                raise
 
             except Exception as error:
                 self.log(message="Impossible to disable the local user account on the firewall", level="error")
