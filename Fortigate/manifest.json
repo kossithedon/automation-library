@@ -48,7 +48,7 @@
   "description": "Fortigate is a firewall appliance from Fortinet with anti-spam and anti-virus features. Initially distributed as a physical, rack-mounted product, Fortigate can now be installed as a virtual appliance that could run on virtualization platforms such as VMware vSphere",
   "name": "Fortigate Firewalls Hexanet",
   "uuid": "3536c647-dff5-4b4a-b45e-fc2970025a95",
-  "slug": "fortigate hexanet",
+  "slug": "fortigate",
   "version": "1.29.2",
   "categories": [
     "Network"
