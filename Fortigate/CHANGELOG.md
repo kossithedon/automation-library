@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 2025-11-07 - 1.29.2
+
+### Added
+
+- Added action fortigate_disable_local_user
+
 ## 2025-04-07 - 1.29.1
 
 ### Fixed
