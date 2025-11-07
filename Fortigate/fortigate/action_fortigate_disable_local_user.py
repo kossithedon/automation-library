@@ -50,9 +50,9 @@ class FortigateDisableLocalUserAction(Action):
                 response.raise_for_status()
 
             except requests.exceptions.Timeout:
-                self.log(message="Time out session on a firewall", level="error")
-                self.log_exception(message="Failed to get data from feed")
-                raise
+                self.log(message=f'Time out session on firewall {base_ip}', level="error")
+                self.log_exception(message=f'Time out session on firewall {base_ip}')
+                pass
 
             except Exception as error:
                 self.log(message="Impossible to disable the local user account on the firewall", level="error")
@@ -60,7 +60,8 @@ class FortigateDisableLocalUserAction(Action):
                 pass
             else:
                 self.log(
-                    f"Succesfully disabled the local user account {name} on the firewall",
+                    f"Succesfully disabled the local user account {name} on the firewall {base_ip}",
                 )
+                pass
 
-        return payload
+        # return payload
