@@ -15,7 +15,7 @@
   },
   "description": "Disable a local user account of a Fortigate Firewall",
   "docker_parameters": "fortigate_disable_local_user",
-  "name": "Disable Fortigate local user account",
+  "name": "Disable Fortigate local user account - Beta",
   "results": {},
   "uuid": "83ffd9c7-ed8e-4e14-950f-3d2fada0a4a4",
   "slug": "disable_local_user_account"

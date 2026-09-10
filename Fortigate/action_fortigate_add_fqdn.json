@@ -28,7 +28,7 @@
   },
   "description": "Add a new FQDN object to a Fortigate Firewall",
   "docker_parameters": "fortigate_add_fqdn",
-  "name": "Post Fortigate FQDN Address",
+  "name": "Post Fortigate FQDN Address - Beta",
   "results": {},
   "uuid": "288a52f2-6994-419f-884c-d15f81a31cfd",
   "slug": "post_fqdn_address"

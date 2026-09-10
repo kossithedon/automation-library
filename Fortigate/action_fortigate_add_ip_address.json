@@ -28,7 +28,7 @@
   },
   "description": "Add a new IP Address object to a Fortigate Firewall",
   "docker_parameters": "fortigate_add_ip_address",
-  "name": "Post Fortigate IP Address",
+  "name": "Post Fortigate IP Address - Beta",
   "results": {},
   "uuid": "377a9c54-6bb6-40e3-8753-80cbc5b59c61",
   "slug": "post_ip_address"

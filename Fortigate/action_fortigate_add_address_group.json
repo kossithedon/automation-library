@@ -23,7 +23,7 @@
   },
   "description": "Add a new Address Group to a Fortigate Firewall",
   "docker_parameters": "fortigate_add_group_address",
-  "name": "Post Fortigate Address Group",
+  "name": "Post Fortigate Address Group - Beta",
   "results": {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "properties": {
