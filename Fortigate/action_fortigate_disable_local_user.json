@@ -17,6 +17,6 @@
   "docker_parameters": "fortigate_disable_local_user",
   "name": "Disable Fortigate local user account",
   "results": {},
-  "uuid": "83ffd9c7-ed8e-4e14-950f-3d2fada0a4a3",
+  "uuid": "83ffd9c7-ed8e-4e14-950f-3d2fada0a4a4",
   "slug": "disable_local_user_account"
 }
